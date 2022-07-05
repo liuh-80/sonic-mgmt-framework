@@ -72,7 +72,6 @@ PYTHONPATH+=:$CLISOURCE/actioner
 PYTHONPATH+=:$CLISOURCE/renderer
 PYTHONPATH+=:$CLISOURCE/renderer/scripts
 PYTHONPATH+=:$BUILDDIR/swagger_client_py
-PYTHONPATH+=:$(realpath $TOPDIR/..)/sonic-py-swsssdk/src
 export PYTHONPATH
 
 # KLISH_BIN can be set to use klish exe and libs from other directory
